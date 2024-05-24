@@ -1,0 +1,22 @@
+body {
+    background-color: black; /* Fondo negro */
+    color: green; /* Letras verdes */
+}
+
+.navbar {
+    background-color: black !important; /* Fondo negro para la barra de navegación */
+}
+
+.btn-primary {
+    background-color: green !important; /* Botón con fondo verde */
+    border-color: green !important; /* Borde verde para el botón */
+}
+
+.btn-primary:hover {
+    background-color: darkgreen !important; /* Color de fondo más oscuro al hacer hover */
+    border-color: darkgreen !important; /* Borde más oscuro al hacer hover */
+}
+
+.navbar-toggler-icon {
+    background-color: green !important; /* Ícono del botón de navegación con fondo verde */
+}

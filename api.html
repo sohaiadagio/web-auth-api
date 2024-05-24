@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Películas API</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/api.css"> 
+    <style>
+        body {
+          background-image: url('img/fondo.jpg');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-attachment: fixed;
+        }
+    
+        .carousel-item img {
+          max-width: 100%;
+        }
+    
+        #carouselAutoplaying {
+          max-width: 600px; 
+          margin: auto; 
+        }
+      </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-secondary bg-gradient">
+        <div class="container-fluid">
+            <button id="fetchMoviesButton" class="btn btn-primary">CLICK AQUI</button>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div id="moviesList"></div>
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
